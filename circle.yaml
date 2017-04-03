@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: 0.12.15
+deployment:
+  production:
+    branch: master
+    heroku:
+      appname: serene-peak-32974
+test:
+  override:
+    - exit 0
